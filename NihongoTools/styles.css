@@ -1,0 +1,315 @@
+
+body {
+    margin: 0;
+    background-color: rgb(58, 58, 58);
+    background-image: url("assets/Taustakuva.png");
+    background-blend-mode:screen;
+}
+h3 {
+    font-family: monospace;
+    text-align: center;
+    color: rgb(182, 181, 181);    
+}
+h2 {
+    font-family: monospace;
+    text-align: center;
+    color: rgb(182, 181, 181);
+}
+p {
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(182, 181, 181);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.topbar {
+    position: fixed;
+    top: 0;
+    background-color: rgb(49, 46, 46);
+    width: 100%;
+    height: 4em;
+    z-index: 1030;
+}
+
+header {
+    padding-top: 15%;
+}
+.navLista {
+    padding-top: 50px;
+    color: white;
+    font-family: monospace;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nextButton {
+    font-family: monospace;
+    background-color: rgb(54, 63, 102);
+    color: rgb(253, 248, 248);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+.nextButton:hover {
+    background-color: rgb(68, 99, 126);
+}
+.buttonContainer {
+    padding-top: 10px;
+}
+#sideNav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: rgb(49, 46, 46);
+    width: 0;
+    height: 100%;
+    z-index: 1000;
+}
+.burger {
+    display: block;
+    width: 28px;
+    height: 4px;
+    background-color: white;
+    margin-top: 6px;
+}
+.burgerContainer {
+    width: 28px;
+    height: auto;
+    margin-top: 22px;
+    margin-left: 10px;
+    padding: 0 0 0 0;
+    background: none;
+    border: none;
+}
+
+.burgerContainer:hover {
+    background-color: rgba(255, 0, 0, 0.795);
+    width: 28px;
+    height: auto;
+}
+.mainParagraphContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(49, 46, 46);
+    border: 2px solid rgb(39, 36, 36);
+    /*    border: 2px solid rgb(41, 38, 38); */
+}
+.taeKimContainer {
+    padding-top:5px;
+}
+.taeKim {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.genki {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.yokuBi {
+        width: 85%;
+        height:auto;
+    }
+.rtk {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+    width: 85%;
+    height:auto;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+    width: 85%;
+    height:auto;
+}
+img {
+    display: block;
+    border: 4px solid rgb(39, 36, 36);
+    overflow: hidden;
+    -webkit-filter: brightness(100%);
+}
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.ankiJaVermeet {
+    height: auto;
+    width: 90%;
+}
+.imabi{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ankiAnchor {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.YomiMoku {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.reader {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.video {
+    height: auto;
+    width: 80%;
+}
+a {
+    color: grey;
+}
+a:hover {
+    color: cyan;
+}
+@media (width >= 1300px) {
+    .reader {
+        width: 30%;
+    }
+    .video {
+        width: 30%;
+    }
+    .ankiAnchor {
+        width: 50%;
+        height: auto;
+    }
+    .imabi {
+        width: 60%;
+        height: auto;
+    }
+    .taeKimContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+    .YomiMoku {
+        height: auto;
+        width: 40%;
+    }
+    .taeKim {
+    height: auto;
+    width: 20%;
+}
+    .rtk {
+    width: 20%;
+    height: auto;
+}
+.genki {
+    width: 30%;
+    height: auto;
+}
+    p {
+        font-size: 1em;
+    }
+    header {
+        padding-top: 4%;
+        }
+    h2 {
+        font-size: 3em;
+    }
+    .mainParagraphContainer {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .link {
+        width: 50%;
+        height:auto;
+    }
+    .ankiJaVermeet {
+        height: auto;
+        width: 60%;
+}
+}
+@media (width < 407px) {
+    .nextButton {
+        width: 100px;
+        height: 50px;
+    }
+}
+@media (width > 500px) and (height < 500px) {
+        .reader {
+        width: 30%;
+    }
+    .video {
+        width: 30%;
+    }
+    .ankiAnchor {
+        width: 50%;
+        height: auto;
+    }
+    .imabi {
+        width: 60%;
+        height: auto;
+    }
+    .taeKimContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+    .YomiMoku {
+        height: auto;
+        width: 50%;
+    }
+    .taeKim {
+    height: auto;
+    width: 20%;
+}
+    .rtk {
+    width: 20%;
+    height: auto;
+}
+.genki {
+    width: 30%;
+    height: auto;
+}
+}
+@media (height > 700px) and (width < 1000px) and (orientation: landscape) {
+    .taeKim {
+        width: 30%;
+    }
+    .rtk {
+        width: 30%;
+    }
+    .YomiMoku {
+        width: 70%;
+    }
+}

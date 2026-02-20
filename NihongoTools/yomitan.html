@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <nav class="topbar" >
+        <button class="burgerContainer" onclick="navPull()" 
+        aria-controls="sideNav" 
+        aria-expanded="false"
+        aria-label="avaa navimenu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </button>
+      </nav>
+            <div id='sideNav'> 
+        <div class="sideNavOptions">
+          <ul class="navLista">
+<li>
+      <span class="navSection">Alku</span>
+      <ul>
+        <li><a href="index.html">Esittelysivu</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Kirjoja</span>
+      <ul>
+        <li><a href="taekim.html">Tae Kim</a></li>
+        <li><a href="genki.html">Genki</a></li>
+        <li><a href="rtk.html">RTK</a></li>
+        <li><a href="yokubi.html">Yokubi</a></li>
+        <li><a href="imabi.html">Imabi</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Anki</span>
+      <ul>
+        <li><a href="ankista.html">Ankista</a></li>
+        <li><a href="ankivermeet.html">Vermeita</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Ohjelmia</span>
+      <ul>
+        <li>Yomitan ja Mokuro</li>
+        <li><a href="readerJaTextractor.html">Reader ja Textractor</a></li>
+      </ul>
+    </li>
+
+  </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+    <div class="flexContainer">
+
+    <h3> Yomitan ja Mokuro </h3>
+        
+    <a class="YomiMoku" href="https://yomitan.wiki/"><img href src="assets/YomitanJaMokuroEsim.png" alt="Kuvankaappaus yomitanista ja mokurosta yhdessa."></a>
+    <p>Kuvassa mokuro ja yomitan toimimassa yhdessa</p>
+    <h3>Yomitan</h3>
+    <div class="mainParagraphContainer">
+    <p>Yomitan on selainlisäosa jonka avulla voit skannata sanoja verkkosivulla jonka jälkeen ohjelma avaa sanakirjan ponnahdusikkunassa.
+Tämä on ehkä tärkein ohjelma jota tulet tarvitsemaan. <br>
+https://yomitan.wiki/</p>
+ </div>
+ <h3>Mokuro</h3>
+ <div class="mainParagraphContainer">
+    <p>Mokuro on ohjelma joka antaa sinun skannata Japanilaisia kuvia jonka jälkeen voit avata ne selaimessa ja käyttää yomitania skannaamaan tekstiä.
+Ohjelmaa käytetään pääosin mangan skannaamiseen mutta ei ole mitään syytä miksei sitä voisi käyttää muuhunkin. <br>
+https://github.com/kha-white/mokuro</p>
+ </div>
+       <div class="buttonContainer">
+    <button class="nextButton" onclick="window.location.href='ankivermeet.html'">Edellinen sivu</button>
+    <button class="nextButton" onclick="window.location.href='readerJaTextractor.html'">Seuraava sivu</button>
+        </div>
+      </div>
+        <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <header>
+      <nav class="topbar" >
+        <button class="burgerContainer" onclick="navPull()" 
+        aria-controls="sideNav" 
+        aria-expanded="false"
+        aria-label="avaa navimenu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </button>
+      </nav>
+            <div id='sideNav'> 
+        <div class="sideNavOptions">
+          <ul class="navLista">
+<li>
+      <span class="navSection">Alku</span>
+      <ul>
+        <li><a href="index.html">Esittelysivu</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Kirjoja</span>
+      <ul>
+        <li><a href="taekim.html">Tae Kim</a></li>
+        <li><a href="genki.html">Genki</a></li>
+        <li>RTK</li>
+        <li><a href="yokubi.html">Yokubi</a></li>
+        <li><a href="imabi.html">Imabi</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Anki</span>
+      <ul>
+        <li><a href="ankista.html">Ankista</a></li>
+        <li><a href="ankivermeet.html">Vermeita</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Ohjelmia</span>
+      <ul>
+        <li><a href="yomitan.html">Yomitan ja Mokuro</a></li>
+        <li><a href="readerJaTextractor.html">Reader ja Textractor</a></li>
+      </ul>
+    </li>
+
+  </ul>
+        </div>
+      </div>
+          </header>
+          <main>
+            <div class="flexContainer">
+          <h2> Remembering the Kanji</h2>
+        
+    <a class="rtk" href="https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921?crid=23CU9DV5TAING&dib=eyJ2IjoiMSJ9.P9cIU6asLVRxSK_xyzG5xe2qCOUX_2mAYQkmyWCvj3diIBJU8fb7-3jA93MAl0V4tN1_gCUzAMhe-fJj-LxiFDaxvsYODudYnVS6vvkSIl4evJGvOzxGWopWb4_ZtCCvMWBQzYc1Tzkf8aKvShz5V-HTGS56eAP0vtMbJiGa7RyCLY_BuuTOccGXsp0lvaRJC1TeyAq0jabw6T-WuPtD21DdkspFqAh1JMTGiMhTU60.ojq58dbB-x2wJYzLyBvonNISBAlK2qXPyaU101q5A6o&dib_tag=se&keywords=Remembering+the+kanji&qid=1771531990&s=books&sprefix=remembering+the+kan%2Cstripbooks%2C407&sr=1-1">
+        <img alt="RTK kirjan kannesta kuva." src="assets/SisaltoKuva2.jpg"> </a>
+    <div class="taeKimContainer"></div>
+    <div class="mainParagraphContainer">
+    <p>RTK on mielenkiintoisa osio, se on pääosin kanjiin kohdistuvaa materiaalia, se on erittäin hyödyllinen jos haluat opiskella kanjia isolaatiossa mutta suosittelisin että et käy kirjaa läpi vaan lataat Anki pakan, käyt verkkosivulla ja luet hieman asiasta.
+Jos päätät käydä itse kirjan läpi voimaa sinulle, se on varmasti hyödyksi.</p>
+ </div>
+
+            <div class="buttonContainer">
+    <button class="nextButton" onclick="window.location.href='genki.html'">Edellinen sivu</button>
+    <button class="nextButton" onclick="window.location.href='yokubi.html'">Seuraava sivu</button>
+        </div>
+ </div>
+ </main>
+<script src="scripts.js"></script>
+</body>
+</html>

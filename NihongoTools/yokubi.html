@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <header>
+      <nav class="topbar" >
+        <button class="burgerContainer" onclick="navPull()" 
+        aria-controls="sideNav" 
+        aria-expanded="false"
+        aria-label="avaa navimenu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </button>
+      </nav>
+            <div id='sideNav'> 
+        <div class="sideNavOptions">
+          <ul class="navLista">
+<li>
+      <span class="navSection">Alku</span>
+      <ul>
+        <li><a href="index.html">Esittelysivu</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Kirjoja</span>
+      <ul>
+        <li><a href="taekim.html">Tae Kim</a></li>
+        <li><a href="genki.html">Genki</a></li>
+        <li><a href="rtk.html">RTK</a></li>
+        <li>Yokubi</li>
+        <li><a href="imabi.html">Imabi</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Anki</span>
+      <ul>
+        <li><a href="ankista.html">Ankista</a></li>
+        <li><a href="ankivermeet.html">Vermeita</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Ohjelmia</span>
+      <ul>
+        <li><a href="yomitan.html">Yomitan ja Mokuro</a></li>
+        <li><a href="readerJaTextractor.html">Reader ja Textractor</a></li>
+      </ul>
+    </li>
+
+  </ul>
+        </div>
+      </div>
+      </header>
+      <main>
+        <div class="flexContainer">
+          <h2> Yoku.bi</h2>
+        
+   <a class="link" href="https://yoku.bi"><img src="assets/Sisalto4.png" alt="Yokubin verkkosivusta kuvankaappaus"></a>
+   <div class="taeKimContainer"></div>
+    <div class="mainParagraphContainer">
+    <p>Yoku.bi on verkkosivu joka on uudempi versio Sakubi verkkosivusta. Se on myös monelle lähellä sydäntä oleva kieliopin opas, omasta mielestäni Yoku.bi on tällä hetkellä paras verkkosivu kieliopin opiskeluun.
+Se ei myöskään käy läpi asioita yksityiskohtaisesti mutta se ei ole tarkoituskaan, oppaan tarkoitus on selittää miten asiat toimivat, antaa muutama esimerkkiä ja antaa sinun ymmärtää loput immersiossa.
+Tämä opas ymmärtää sen miten kieltä opiskellaan ja pohjautuu myös siihen, sen ei ole tarkoitus olla raamattusi vaan se antaa pienen puskun lähteä oikeaan opiskeluun.</p>
+ </div>
+             <div class="buttonContainer">
+    <button class="nextButton" onclick="window.location.href='rtk.html'">Edellinen sivu</button>
+    <button class="nextButton" onclick="window.location.href='imabi.html'">Seuraava sivu</button>
+        </div>
+        </div>
+
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

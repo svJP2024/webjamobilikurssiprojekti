@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <nav class="topbar" >
+        <button class="burgerContainer" onclick="navPull()" 
+        aria-controls="sideNav" 
+        aria-expanded="false"
+        aria-label="avaa navimenu">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </button>
+      </nav>
+            <div id='sideNav'> 
+        <div class="sideNavOptions">
+          <ul class="navLista">
+<li>
+      <span class="navSection">Alku</span>
+      <ul>
+        <li><a href="index.html">Esittelysivu</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Kirjoja</span>
+      <ul>
+        <li>Tae Kim</li>
+        <li><a href="genki.html">Genki</a></li>
+        <li><a href="rtk.html">RTK</a></li>
+        <li><a href="yokubi.html">Yokubi</a></li>
+        <li><a href="imabi.html">Imabi</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Anki</span>
+      <ul>
+        <li><a href="ankista.html">Ankista</a></li>
+        <li><a href="ankivermeet.html">Vermeita</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Ohjelmia</span>
+      <ul>
+        <li><a href="yomitan.html">Yomitan ja Mokuro</a></li>
+        <li><a href="readerJaTextractor.html">Reader ja Textractor</a></li>
+      </ul>
+    </li>
+
+  </ul>
+        </div>
+      </div>
+    </header>
+          <main>
+    <div class="flexContainer">
+    <h2> Tae Kim</h2>
+        
+    <a class="taeKim" href="https://guidetojapanese.org/learn/grammar"><img src="assets/SisaltoKuva1.jpg" alt="Tae Kimin kirjan kansi"> </a>
+    <div class="taeKimContainer"></div>
+    <div class="mainParagraphContainer">
+    <p>Tae Kimin grammar guide on se mistä monen ihmisen oppiminen lähti liikkeelle, se on monelle lähellä sydäntä vaikka itse Kimin kieliopillisuuden ymmärrys on tullut useasti kyseenalaiseksi.
+Kaikesta huolimatta se on suhteellisen lyhyt ja ei mene läpi hirveän tarkasti asioita, tästä guidesta tulet saamaan kaiken tarvittavan jolla pääset alkuun mutta valehtelisin jos sanoisin että se on paras resourssi mitä löytyy tänä päivä.
+Siitä huolimatta jos Kimin kirjoitustyyli on sinulle mieluisa ei ole mitään vikaa lähteä tästä.</p>
+ </div>
+<div class="buttonContainer">
+    <button class="nextButton" onclick="window.location.href='index.html'">Edellinen sivu</button>
+    <button class="nextButton" onclick="window.location.href='genki.html'">Seuraava sivu</button>
+</div>
+      </div>
+      </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
