@@ -8,12 +8,14 @@ body {
 h3 {
     font-family: monospace;
     text-align: center;
-    color: rgb(182, 181, 181);    
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke: 1.5px rgb(58, 58, 58);
 }
 h2 {
     font-family: monospace;
     text-align: center;
-    color: rgb(182, 181, 181);
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke: 1.5px rgb(58, 58, 58);
 }
 p {
     font-family: monospace;
