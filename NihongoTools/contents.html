@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genki</title>
+    <title>Books</title>
     <link rel="stylesheet" href="styles.css">
-     
 </head>
 <body>
-   
-       <header>
+    <header>
       <nav class="topbar" >
         <button class="burgerContainer" onclick="navPull()" 
         aria-controls="sideNav" 
@@ -37,7 +35,7 @@
         <li><a href="genki.html">Genki</a></li>
         <li><a href="rtk.html">RTK</a></li>
         <li><a href="yokubi.html">Yokubi</a></li>
-        <li>Imabi</li>
+        <li><a href="imabi.html">Imabi</a></li>
       </ul>
     </li>
 
@@ -60,23 +58,55 @@
   </ul>
         </div>
       </div>
-      </header>
-      <main>
-      <div class="flexContainer"> 
-          <h2> Imabi </h2>
+    </header>
+          <main>
+    <div class="flexContainer">
+    <h2> Sisallysluettelo</h2>
         
-    <a class="imabi" href="https://imabi.org"><img alt="Kuvankaappaus imabin etusivusta." src="assets/Sisalto5.png"> </a>
+   <img src="assets/Pienempi kuva.png" alt="Kirjan kuva" class="randomKirja">
     <div class="taeKimContainer"></div>
-    <div class="mainParagraphContainer">
-    <p>Imabi on erittäin laaja kieliopin verkkosivu, et löydä tätä tarkempaa kieliopin opasta mistään, se käy läpi kaiken mitä voisit kuvitella mutta jos lähdet käyttämään tätä käytät myös paljon aikaasi siihen että opiskelet kielioppia sen sijaan että ymmärrät sitä.
-Suosittelisin pysymään tästä kaukana ja käyttämään sitä enemmän referenssinä kun opiskelumateriaalina.</p>
+    <div class="mainLiContainer">
+    <span class="navSection">Alku</span>
+      <ul>
+        <li><a href="index.html">Esittelysivu</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Kirjoja</span>
+      <ul>
+        <li><a href="taekim.html">Tae Kim</a></li>
+        <li><a href="genki.html">Genki</a></li>
+        <li><a href="rtk.html">RTK</a></li>
+        <li><a href="yokubi.html">Yokubi</a></li>
+        <li><a href="imabi.html">Imabi</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Anki</span>
+      <ul>
+        <li><a href="ankista.html">Ankista</a></li>
+        <li><a href="ankivermeet.html">Vermeita</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="navSection">Ohjelmia</span>
+      <ul>
+        <li><a href="index.html">Yomitan ja Mokuro</a></li>
+        <li><a href="taekim.html">Reader ja Textractor</a></li>
+      </ul>
+    </li>
+
+  </ul>
  </div>
-                 <div class="buttonContainer">
-    <button class="nextButton" onclick="window.location.href='yokubi.html'">Edellinen sivu</button>
-    <button class="nextButton" onclick="window.location.href='anki.html'">Seuraava sivu</button>
-        </div>
-        </div>
-        </main>
-              <script src="scripts.js"></script>
+<div class="buttonContainer">
+    <button class="nextButton" onclick="window.location.href='index.html'">Edellinen sivu</button>
+    <button class="nextButton" onclick="window.location.href='taekim.html'">Seuraava sivu</button>
+</div>
+      </div>
+      </main>
+    <script src="scripts.js"></script>
 </body>
 </html>

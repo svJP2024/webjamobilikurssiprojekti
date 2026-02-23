@@ -9,7 +9,6 @@ h3 {
     font-family: monospace;
     text-align: center;
     color: rgb(170, 170, 170);
-    -webkit-text-stroke: 1.5px rgb(58, 58, 58);
 }
 h2 {
     font-family: monospace;
@@ -35,6 +34,13 @@ p {
 
 header {
     padding-top: 15%;
+}
+li {
+    color: white;
+    list-style: none;
+}
+.navSection {
+    color: white;
 }
 .navLista {
     padding-top: 50px;
@@ -95,6 +101,15 @@ header {
     height: auto;
 }
 .mainParagraphContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(49, 46, 46);
+    border: 2px solid rgb(39, 36, 36);
+    /*    border: 2px solid rgb(41, 38, 38); */
+}
+.mainLiContainer {
+    width: 40%;
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(49, 46, 46);
@@ -201,7 +216,23 @@ a {
 a:hover {
     color: cyan;
 }
+.randomKirja {
+    border: none;
+    height: auto;
+    width: 10%;
+}
+@media (width >= 800px) {
+    .rtk {
+        width: 20%;
+        height: auto;
+    }
+    .taeKim {
+        width: 20%;
+        height: auto;
+    }
+}
 @media (width >= 1300px) {
+
     .reader {
         width: 30%;
     }
@@ -261,11 +292,23 @@ a:hover {
 }
 }
 @media (width < 407px) {
+    
     .nextButton {
         width: 100px;
         height: 50px;
     }
 }
+@media (width > 700px) and (height > 1000px) and (orientation: portrait){
+    .taeKim {
+        width: 30%;
+        height: auto;
+    }
+    .rtk {
+        width: 30%;
+        height: auto;
+    }
+}
+
 @media (width > 500px) and (height < 500px) {
         .reader {
         width: 30%;
