@@ -4,6 +4,8 @@ body {
     background-color: rgb(58, 58, 58);
     background-image: url("assets/Taustakuva.png");
     background-blend-mode:screen;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h3 {
     font-family: monospace;
